@@ -96,3 +96,26 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1279px) {
+
+  .logo img {
+  padding-left: 100%;
+  padding-top: 20%;
+  align-items: center;
+}
+  nav ul li a {
+    
+  font-size: 22px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+  .about-section {
+    padding: 80px 0 0 0;
+  }
+  .image-section img {
+  padding: 20px 0 0 0;
+  max-width: 100%;
+}
+}
