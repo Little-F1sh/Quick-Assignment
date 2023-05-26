@@ -3,6 +3,7 @@
     width: 480px;
     margin: auto;
   }
+  /* nav bar */
   .logo{
     margin-top: 10px;
   }
@@ -22,6 +23,57 @@
   nav ul li a {
   
     font-size: 18px;
+    font-weight: 400px;
+    padding: 0 0 0 0;
+  }
+  /* about */
+  .about-section {
+    padding: 80px 0 0 0;
+  }
+  .about-section h1 {
+    font-size: 50px;
+  }
+  .about-section p {
+    font-size: 18px;
+  }
+  .image-section img {
+    padding: 20px 0 0 0;
+    max-width: 100%;
+  }
+  .coloum {
+    width: 100%;
+  }
+  .Box-content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .container {
+    width: 720px;
+    margin: auto;
+
+  }
+  .logo {
+    margin-top: 15px;
+  }
+  .logo img {
+    padding: 0 0 0 0;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0 0 15px 0;
+  }
+
+  nav ul li {
+
+    padding-right: 8px;
+  }
+
+  nav ul li a {
+
+    font-size: 22px;
+    font-weight: 400;
     padding: 0 0 0 0;
   }
   .about-section {
