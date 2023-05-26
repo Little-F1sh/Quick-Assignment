@@ -28,45 +28,55 @@
       font-weight: 400px;
       padding: 5px 5px;
     }
-}
-/* about section */
-main {
-  margin-left: 0;
-}
-.about-section {
-  padding: 87px 0 0 0;
-
-}
-.about-section h1 {
-  font-size: 50px;
-
-}
-.about-section p {
-  font-size: 20px;
-  padding: 30px 0 10px 0;
-}
-.image-section img {
-  padding: 0 0 0 0;
-  max-width: 100%;
-}
-.coloum {
-  width: 100%;
-
-}
-.right-text{
-  padding: 0 0 0 0;
-}
-.feature {
-  padding: 10px 0 10px 0;
-}
-.coloum h1{
-  font-size: 35px;
-  text-align: center;
-}
-.coloum p {
-  font-size: 20px;
-  text-align: center;
-}
-.Box-content {
-  flex-direction: column;
+        /* about section */
+        main {
+          margin-left: 0;
+        }
+    
+        .about-section {
+          padding: 87px 0 0 0;
+    
+        }
+    
+        .about-section h1 {
+          font-size: 50px;
+    
+        }
+    
+        .about-section p {
+          font-size: 20px;
+          padding: 30px 0 10px 0;
+        }
+    
+        .image-section img {
+          padding: 0 0 0 0;
+          max-width: 100%;
+        }
+    
+        .coloum {
+          width: 100%;
+    
+        }
+    
+        .right-text {
+          padding: 0 0 0 0;
+        }
+    
+        .feature {
+          padding: 10px 0 10px 0;
+        }
+    
+        .coloum h1 {
+          font-size: 35px;
+          text-align: center;
+        }
+    
+        .coloum p {
+          font-size: 20px;
+          text-align: center;
+        }
+    
+        .Box-content {
+          flex-direction: column;
+        }
 }
