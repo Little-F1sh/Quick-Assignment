@@ -4,10 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/* nav bar seetion */
 nav {
     width: 100%;
     line-height: 70px;
-    padding: 22px 0 10px 0;
+    align-items: center;
     position: fixed;
     z-index: 110;
     box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
@@ -49,6 +54,7 @@ nav ul li a:hover {
 nav ul li .active {
     color: aqua;
 }
+/* about section */
 .about-section {
     text-align: center;
     padding: 100px;
@@ -69,7 +75,7 @@ nav ul li .active {
     color: #3b506c;
     margin: 0;
 }
-.image-section img{
+.image-section img {
     padding: 60px;
     display: block;
     margin: auto;
@@ -111,7 +117,8 @@ nav ul li .active {
     margin-inline-end: 0px;
     
 }
-.container{
+/* Flex box section */
+.Box-content {
     margin: auto;
     border: 1px solid white;
     display: flex;
@@ -153,6 +160,7 @@ nav ul li .active {
     background-color: rgba(255, 255, 0, 0.144);
     box-shadow: rgba(53, 53, 152, 0.363) 0px 7px 29px 0px;
 }
+/* footer section */
 .footer {
     padding-top: 50px;
     margin: auto;
@@ -164,8 +172,7 @@ nav ul li .active {
     margin: 10px 0;
     padding: 20px 0;
     text-align: center;
-    background: white;
-    box-shadow: 0px 0px 10px 3px lightgray;
+    background: white;;
     border-radius: 5px;
 }
 .col h3 {
